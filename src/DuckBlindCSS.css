@@ -1,0 +1,38 @@
+body.duck_blind_list {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    color: #003305;
+    background-color: white;
+}
+
+th.duck_blind_list {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    color: white;
+    background-color: black;
+}
+    
+table.duck_blind_list {
+    border-style:solid;
+    border-color:black;
+    border-collapse:collapse;
+}
+
+td.duck_blind_list {
+    border-style:solid;
+    border-width:1px;
+    border-color:black;
+}
+
+td.duck_blind_list_spacer {
+    height:10px;
+    background-color:gray;
+}

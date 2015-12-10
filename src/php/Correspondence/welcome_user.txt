@@ -1,0 +1,16 @@
+help@PiutePonds.org
+Welcome to Friends of Piute Ponds Website
+Dear ${FIRST_NAME} ${LAST_NAME}:
+
+Thank you for joining PiutePonds.org.  Our purpose is spreading the word about Piute Ponds and increasing utilization for everyone.
+
+This website changes every week.  Check back often for new posts. The rare sightings page is our most popular page with surprising bird sightings. You can find the rare sightings by clicking the link on the home page or the birding page. 
+
+If you have new photographs of birds you have seen, feel free to share them with us at birding@PiutePonds.org.
+
+If you are a registered hunter and cannot see the blind list on the website, please email help@PiutePonds.org and we will correct that.
+
+Report any problems to us at help@PiutePonds.org
+
+Thank you,
+Piute Ponds Website Team

@@ -1,0 +1,9 @@
+social@PiutePonds.org
+Friends of Piute Ponds is now on Twitter
+Dear ${FIRST_NAME} ${LAST_NAME}:
+
+This is a quick note to all Friends of Piute Ponds.  We are letting you know we now have a Twitter account.  We plan on using this to help communicate interesting and late breaking news about the activities at the Ponds.
+Please feel free to follow us @piuteponds.  There is also a button at the bottom of the navigation bar on the website that you can use to follow us.
+
+Thank you,
+Piute Ponds Website Team

@@ -1,0 +1,16 @@
+help@PiutePonds.org
+Hi From Piute Ponds.  We Have Moved.
+Dear ${FIRST_NAME} ${LAST_NAME}:
+
+As some of you have noticed the PiutePonds.com site has been down for a few days. We've changed the URL to PiutePonds.org. The only change is the .org on the end.
+
+We haven't quite got the redirecting function working yet to direct anyone looking for the .com site to the .org site.
+
+If you or someone you know, registered as a new member or changed a password in the past 2 weeks, please do it again on the .org site.
+
+If you have issues with the website, please send them to help@piuteponds.org.
+
+As punishment for our mistake, we are not accepting our annual bonus. LOL.
+
+Best regards,
+The Website Team

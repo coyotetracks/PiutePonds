@@ -1,0 +1,153 @@
+body {
+    background-color: #00BB55;
+}
+
+td, tr, th {
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+    
+.count_input {
+    width: 100px;
+}
+    
+.count_add {
+    background-color: #22DD55;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    height: 50px;
+    width: 25px;
+    text-align: center;
+}
+
+.count_first_column {
+    width: 300px;
+}
+
+.count {
+    background-color: #00DD55;
+    height: 50px;
+    width: 70px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.count_row_total {
+    width: 100px;
+    text-align: center;
+}
+
+.count_blind_total {
+    background-color: #11DD55;
+    text-align: center;
+}
+
+.count_section_title {
+	font-size: 20px;
+	font-family: Arial;
+	font-style: normal;
+}
+	
+.count_divid {
+    background-color: #00DD00;
+    height: 10px;
+    width: 25px;
+}
+
+#DayListDiv {
+	position:relative;
+	left: 200px;
+}
+
+#DaySelectDiv {
+	position:relative;
+	left: 200px;
+}
+
+.button {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+}
+
+.bc_note {
+	width: 500px;
+	height: 200px;
+	overflow-x: scroll;
+	overflow-y: scroll;
+}
+
+/*
+
+.count_table {
+    width: 100px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    color: #003305;
+    background-color: #00BB55;
+}
+
+th {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    color: #66FF00;
+    background-color: #000000;
+}
+
+.is_member {
+	color: #FF0033;
+    font-weight: bold;
+    background-color: #00DD55;
+}
+    
+table.blind_list {
+    border-style:solid;
+    border-color:black;
+    border-collapse:collapse;
+}
+
+td.blind_list {
+    border-style:solid;
+    border-width:1px;
+    border-color:black;
+}
+
+td.blind_list_spacer {
+    height:10px;
+    background-color:#007040;
+}
+
+body.registered_hunters_report {
+    background-color:white;
+}
+    
+table.registered_hunters_report {
+    border-style:solid;
+    border-color:black;
+    border-collapse:collapse;
+}
+
+td.registered_hunters_report {
+    border-style:solid;
+    border-width:1px;
+    border-color:black;
+}
+*/

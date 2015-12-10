@@ -1,0 +1,14 @@
+help@piuteponds.org
+Welcome to Friends of Piute Ponds Website
+Dear ${FIRST_NAME} ${LAST_NAME}:
+
+Welcome to PiutePonds.org.  We are glad you joined the website.  Our purpose is spreading the word about Piute Ponds and increasing utilization for everyone.
+
+As a hunter you can view the duck blind list on the web site. To do this, go to www.PiutePonds.org, login with the email address and password you used when you registered, and click on the “HUNTING” button on the left side of the page. The Hunting page will appear.  At the bottom of the page is a link called “Duck Blind List”
+This brings up a page with the Duck Bind information.
+Like last year, you can report your hunts and the number of ducks you have harvested by following instruction on the Hunting page.
+
+If you have any problems please let us know at help@PiutePonds.org
+
+Thank you,
+Piute Ponds Website Team

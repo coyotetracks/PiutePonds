@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    color: #003305;
+    background-color: #00BB55;
+}
+
+th {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    color: #66FF00;
+    background-color: #000000;
+}
+
+.is_member {
+	color: #FF0033;
+    font-weight: bold;
+    background-color: #00DD55;
+}
+    
+table.blind_list {
+    border-style:solid;
+    border-color:black;
+    border-collapse:collapse;
+}
+
+td.blind_list {
+    border-style:solid;
+    border-width:1px;
+    border-color:black;
+}
+
+td.blind_list_spacer {
+    height:10px;
+    background-color:#007040;
+}
+
+body.registered_hunters_report {
+    background-color:white;
+}
+    
+table.registered_hunters_report {
+    border-style:solid;
+    border-color:black;
+    border-collapse:collapse;
+}
+
+td.registered_hunters_report {
+    border-style:solid;
+    border-width:1px;
+    border-color:black;
+}
