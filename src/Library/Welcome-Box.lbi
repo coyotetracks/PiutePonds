@@ -1,0 +1,40 @@
+<div id="login"><span class="style9" id="heading1">
+  <?php
+    if(showLoginBanner()) {
+	  $userInfo = getCurrentUserInfo();
+	   if(isset($userInfo) && $userInfo->isLoggedIn()==true) {
+		displayWelcomeBack($userInfo);
+	  } else {
+      ?>
+		<form method='POST' action='../php/login_action.php'>
+		   <table>
+		      <tr>
+		         <td class="errorMessage" colspan="5"><?php echoErrorMessages("login"); 
+?></td>
+		      </tr>
+		      <tr>
+		         <td>email:</td>
+		         <td><input type='text' name='email'/></td>
+		         <td>password:</td>
+		         <td><input type='password' name='password'/></td>
+		         <td><input type='submit' value='Login'/></td>
+		      </tr>
+		      <tr>
+		         <td></td>
+		         <td>
+		            <a href='../register.php'><font size="-1">Register</font></a>		         
+</td>
+		         <td></td>
+		         <td>
+		            <a href='../forgot.php'><font size="-1">Forgot Password?</font></a>		         
+</td>
+		      </tr>
+		   </table>
+		</form>
+   <?php
+      }
+	}
+   ?>
+  </span>
+    </p>
+</div>
