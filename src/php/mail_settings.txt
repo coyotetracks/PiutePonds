@@ -1,0 +1,2 @@
+SMTP = e8.ehosts.com
+smtp_port = 25

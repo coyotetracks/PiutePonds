@@ -1,0 +1,11 @@
+.errorMessage {
+    color: red;
+    font-size: 12px;
+}
+
+
+              <tr>
+                 <td class="errorMessage" colspan="5"><?php echoErrorMessages(); ?></td>
+              </tr>
+
+ 
