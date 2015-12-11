@@ -9,23 +9,21 @@ function initialize_db_info() {
 	if($computer_name == "CA2083EJBLATT") {
 		// This is one development settings.
 		$dbInfo->setServer("localhost");
-		$dbInfo->setUser("grebe");
-		$dbInfo->setPassword("grebe");
-		$dbInfo->setDatabase("ponds");
+		$dbInfo->setUser("XXXXXXXXX");
+		$dbInfo->setPassword("XXXXXXXXX");
+		$dbInfo->setDatabase("XXXXXXXXX");
 	} else if($computer_name == "COYOTE") {
 		// This is the other development settings.
-		$dbInfo->setServer("localhost");
-		$dbInfo->setUser("duck");
-		$dbInfo->setPassword("duck3");
+		$dbInfo->setServer("XXXXXXXXX");
+		$dbInfo->setUser("XXXXXXXXX");
+		$dbInfo->setPassword("XXXXXXXXX");
 		$dbInfo->setDatabase("piute");
 	} else {
 		// This is the production settings.
-		$dbInfo->setServer("localhost");
-		$dbInfo->setUser("piutepon_grebe");
-		$dbInfo->setPassword("flyByNight4");
-		//$dbInfo->setUser("C258993_duck");
-		//$dbInfo->setPassword("ducK3");
-		$dbInfo->setDatabase("piutepon_ducks");
+		$dbInfo->setServer("XXXXXXXXX");
+		$dbInfo->setUser("XXXXXXXXX");
+		$dbInfo->setPassword("XXXXXXXXX");
+		$dbInfo->setDatabase("XXXXXXXXXX");
 	}
 
 	return $dbInfo;
