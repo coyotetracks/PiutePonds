@@ -1,0 +1,4 @@
+src/.ftpquota
+src/error_log
+src/php/error_log
+src/php/bagcheck/error_log
