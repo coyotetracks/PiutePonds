@@ -1,8 +1,5 @@
+<?php include_once('php/piute_includes.php'); session_start(); ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<?php
-include_once('php/piute_includes.php');
-session_start();
-?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -74,5 +71,5 @@ session_start();
 <!-- #EndLibraryItem --></div>
 </div>
 <div id="apDiv1">
-  <p align="left" class="style4">Sorry, but you are	n't allowed on that page.</p>
+  <p align="left" class="style4">Sorry, but you are	not allowed on that page.</p>
 </div>

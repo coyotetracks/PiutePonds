@@ -1,7 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><?php
-include_once('php/piute_includes.php');
-session_start();
-?>
+<?php include_once('php/piute_includes.php'); session_start(); ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -77,53 +75,68 @@ session_start();
 </div>
 <div id="apDiv1">
   <p class="style3"><span class="style4"><span class="H1"><span id="heading1">Volunteers</span></span></span></p>
+  <p class="style9">Adopt a pond! Do you have a group of people or a few friends that like to
+    regularly visit the ponds and want to make a difference? Consider adopting a
+    pond! What would you do? Pick up trash in and around your pond on a
+    semi-regular basis (scheduling up to you). Take notes on anything out of the
+    ordinary. Help keep certain unwanted vegetation in check. Monitor newly
+    planted trees and/or other vegetation. So many opportunities!</p>
+  <p class="style9">- Consider being a docent! Looking for knowledgeable people who want to share<br />
+their knowledge about what can be found at Piute Ponds (of birds and other<br />
+animals, plants, geology, history, etc.) with interested parties of all ages.<br />
+Piute Ponds has a wealth of natural resources waiting to be shared with the<br />
+community and we could use people with different expertise to help in our<br />
+endeavor to educate and spread our enthusiasm about this amazing place. If you<br />
+are interested please provide me with your area of interest and availability.</p>
   <p class="style9">The Friends of Piute Ponds is always looking for volunteers who are looking for a community of like minded people whether for birders, photographers, hunters or hikers.</p>
   <p class="style9">Bring your ideas, tools, time, talent and enthusiasm as we continue to maintain and improve the ponds as a valued wetlands for the beautiful creatures we enjoy.</p>
-  <p class="style9">Email your ideas to <a href="mailto:volunteer@PiutePonds.org">volunteer@piuteponds.org</a></p>
-  <p class="style9">Current projects include: </p>
-  <p class="style3"><strong>Vegetation </strong><br />
-  </p>
-  <blockquote>
-    <p class="style3"><strong>Plant trees along flow paths such as  those in Pintail Flats and along the Ave C channel</strong></p>
-    <p class="style3"><strong>Pull young tamarisk </strong><br />
-    </p>
-  </blockquote>
-  <p class="style3"><strong>Rip Rap</strong></p>
-  <blockquote>
-    <p class="style3"><strong>Hand  place rip rap (small broken concrete) alongside the weirs where the backhoe was  unable to place them.</strong></p>
-    <p class="style3"><br />
-        <strong>Install boards in all screw gates to  protect against debris entering culvert – priority is Shuttle Pond</strong></p>
-  </blockquote>
-  <p class="style3"><strong>Surveys</strong></p>
-  <blockquote>
-    <p class="style3"><strong>Document  potential tricolored blackbirds during nesting periods throughout ponds from  the southern ponds to the lakebed</strong></p>
-    <p class="style3"><strong>Find  and document all black willows planted in 2012 to determine survival rate</strong><br />
-    </p>
-  </blockquote>
-  <p class="style3"><strong>Water gages</strong></p>
-  <blockquote>
-    <p class="style3"><strong>Hand  install gages near the weirs to assist in water control</strong><br />
-    </p>
-  </blockquote>
+  <p class="style9"></p>
   <p class="style3">&nbsp;</p>
   <p class="style9">&nbsp;</p>
 </div>
 <div id="FullWideUnderButtons">
-  <p class="style3"><strong>Weirs</strong></p>
+  <p class="style9"><br />
+    <br />
+    Email your ideas to <a href="mailto:volunteer@PiutePonds.org">volunteer@piuteponds.org</a></p>
+  <p class="style9">Current projects include: </p>
+  <p class="style9"><strong>Vegetation </strong><br />
+  </p>
   <blockquote>
-    <p class="style3"><strong>Develop  method for sealing lakebed weirs so they don&rsquo;t leak when we don&rsquo;t want them to  allow water onto the lakebed</strong> </p>
+    <p class="style9"><strong>Plant trees along flow paths such as  those in Pintail Flats and along the Ave C channel</strong></p>
+    <p class="style9"><strong>Pull young tamarisk </strong><br />
+    </p>
   </blockquote>
-  <p class="style3"><strong>Roads</strong></p>
+  <p class="style9"><strong>Rip Rap</strong></p>
   <blockquote>
-    <p class="style3"><strong>Fill  in, stabilize areas in the roads that pool water developing muddy unpassable  areas.  Can we put in more soil, gravel,  broken concrete, etc? Maybe broken concrete with boards over the pieces  allowing cars to drive over the boards ???</strong></p>
+    <p class="style9"><strong>Hand  place rip rap (small broken concrete) alongside the weirs where the backhoe was  unable to place them.</strong></p>
+    <p class="style9"><br />
+    <strong>Install boards in all screw gates to  protect against debris entering culvert – priority is Shuttle Pond</strong></p>
   </blockquote>
-  <p class="style3"><strong>Signs</strong></p>
+  <p class="style9"><strong>Surveys</strong></p>
   <blockquote>
-    <p class="style3"><strong>Clean  of wildlife signs, design new signs, install</strong></p>
+    <p class="style9"><strong>Document  potential tricolored blackbirds during nesting periods throughout ponds from  the southern ponds to the lakebed</strong></p>
+    <p class="style9"><strong>Find  and document all black willows planted in 2012 to determine survival rate</strong><br />
+    </p>
   </blockquote>
-  <p class="style3"><strong>Wildlife viewing blind</strong></p>
+  <p class="style9"><strong>Water gages</strong></p>
   <blockquote>
-    <p class="style3"><strong>Develop  possible locations, type, install, etc</strong></p>
+    <p class="style9"><strong>Hand  install gages near the weirs to assist in water control</strong></p>
+  </blockquote>
+  <p class="style9"><strong>Weirs</strong></p>
+  <blockquote>
+    <p class="style9"><strong>Develop  method for sealing lakebed weirs so they don&rsquo;t leak when we don&rsquo;t want them to  allow water onto the lakebed</strong> </p>
+  </blockquote>
+  <p class="style9"><strong>Roads</strong></p>
+  <blockquote>
+    <p class="style9"><strong>Fill  in, stabilize areas in the roads that pool water developing muddy unpassable  areas.  Can we put in more soil, gravel,  broken concrete, etc? Maybe broken concrete with boards over the pieces  allowing cars to drive over the boards ???</strong></p>
+  </blockquote>
+  <p class="style9"><strong>Signs</strong></p>
+  <blockquote>
+    <p class="style9"><strong>Clean  of wildlife signs, design new signs, install</strong></p>
+  </blockquote>
+  <p class="style9"><strong>Wildlife viewing blind</strong></p>
+  <blockquote>
+    <p class="style9"><strong>Develop  possible locations, type, install, etc</strong></p>
   </blockquote>
   <p class="style9">&nbsp;</p>
   <p class="style9">For a Google map to the ponds, click here:</p>

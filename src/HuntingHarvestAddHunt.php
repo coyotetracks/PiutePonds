@@ -1,15 +1,6 @@
+<?php include_once('php/piute_includes.php'); session_start(); redirectIfNotInRole('hunter', '../not-allowed.php'); ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <?php
-/*
- * Created on Aug 19, 2010
- *
- * To change the template for this generated file go to
- * Window - Preferences - PHPeclipse - PHP - Code Templates
- */
-include_once('php/piute_includes.php');
-session_start();
-redirectIfNotInRole('hunter', '../not-allowed.php');
-
 $blindCount = getBlindCount();
 $speciesList = getAllSpecies();
 $areaList = getDisplay('areas');
@@ -350,7 +341,7 @@ h1 {
   </p>
   
   <h1 align="left" class="style9">To see the duck blind list, please click here:</h1>
-  <p align="left" class="style9"><a href="duck_blind_list.php?year=2015">Duck Blind List</a></p> 
+  <p align="left" class="style9"><a href="duck_blind_list.php?year=2016">Duck Blind List</a></p> 
   <?php
    } else {
    ?>

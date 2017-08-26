@@ -1,12 +1,8 @@
+<?php include_once('php/piute_includes.php'); session_start(); redirectIfNotInRole('hunter', '../not-allowed.php'); ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <?php
-include_once('php/piute_includes.php');
-session_start();
-redirectIfNotInRole('hunter', '../not-allowed.php');
-
-$season = getSeasonByYear('2015');
+$season = getSeasonByYear('2016');
 $duckCountList = getAnonymousHarvestCountsForASeason($season);
-
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -93,13 +89,11 @@ $duckCountList = getAnonymousHarvestCountsForASeason($season);
 <div class="style9" id="apDiv1">
   <h1 class="style4">Hunting Highlights  </h1>
   <p class="style4">Opening Day Was a Home Run!!!</p>
-  <p class="style9">Hunters who came out for opening day had the highest harvest ever documented at Piute. There were 99 hunters who recorded in at the bag check. Many had their limit by 9 a.m. When the numbers were crunched for the day, the average was 4.5. Most of the ducks taken were green wing and cinamon teal, followed by shoveler. We  beat the Sacramento Refuge in 2 of their 3  areas! Some hunters even came away with snow geese and actual blue wing teal and a wood duck! The wide variety include blue wing teal, cinamon teal, red head, pintail, widgeon, mallard and gadwells.</p>
-  <p class="style9">The small dikes and the road that runs along the east side of Little Piute are closed for hunting season. Please, respect the cones. Even hunters with a blind near the road are not permitted to move/pass the cones. </p>
-  <p class="style9">Please remember to turn in your harvest data forms either on line, in person or in the form can (at Ave C and Shuttle Rd.) within 2 weeks of the hunt.</p>
-  <p class="style9">If we do not recieve harvest data forms for every hunter who hunts,  it might be necessary to shorten the hunting day to get everyone through a  bag check process. </p>
-  <p class="style9">Pick up after yourself, including shells, trash and anything else. Take care of the ponds. </p>
+  <p class="style9">The average ducks per hunter on opening day (24 October 2015) was 4.5. </p>
+  <p class="style9">&nbsp;</p>
+  <p class="style9">&nbsp;</p>
   <p class="style9"><img src="/images/ArrowDownFlipped.jpg" alt="Arrow down" /></p>
-  <p class="style9"><a href="/hunting_harvest.php" target="_blank">Click here</a> to enter your harvest data.</p>
+  <p class="style9"><a href="/HuntingHarvest.php" target="_blank">Click here</a> to enter your harvest data.</p>
   <p class="style9">&nbsp;</p>
   <table border="1">
 <tr>

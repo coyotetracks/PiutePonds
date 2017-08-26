@@ -1,7 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><?php
-include_once('php/piute_includes.php');
-session_start();
-?>
+<?php include_once('php/piute_includes.php'); session_start(); ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -81,15 +79,9 @@ session_start();
   </div>
 </div>
 <div id="apDiv1">
-  <p align="left" class="style3"><span class="style4"><span class="H1"><span id="heading1">Birding</span></span></span> First Page <span class="style18">(<a href="birding2.php">Page 2</a>, <a href="birding3.php">Page 3</a>)</span></p>
-  <p align="left" class="style3">Click here for a direct connection to <a href="http://www.ebird.org" target="_blank">ebird.org</a>.</p>
-  <p align="center" class="style3"><img src="images/sora_by_D_and_J_Davis.jpg" alt="Sora" width="297" height="377" border="2" /></p>
-  <p align="left" class="style9"><a href="RareBirdSightings.php">Rare Sightings</a></p>
-  <p align="left" class="style9"><img src="images/AmericanAvocetsCourt1.jpg" alt="American Avocets Courting" width="440" height="328" border="2" class="photo-caption" /></p>
-  <p class="style9">Birders may  submit a request for access directly to Edwards AFB by emailing Misty:</p>
-  <p class="style9"><a href="mailto:Misty.Hailstone.1@us.af.mil" target="_blank">Piute Ponds Access Request</a><a href="mailto:wanda.deal@edwards.af.mil" target="_blank"></a> - Misty will contact you for further information.</p>
-  <p align="left" class="style9">Edwards Air Force Base has a bird checklist available to download. The .pdf file is over 6 MB, so downloading and opening may take a few minutes. The file is best enlarged and viewed on your monitor as it does not print well. </p>
-  </div>
+  <p align="left" class="style3"><span class="style4"><span class="H1"><span id="heading1">Birding</span></span></span> Page One <span class="style18">(<a href="birding2.php">Page 2</a>, <a href="birding3.php">Page 3</a>)</span></p>
+  <p align="left" class="style3"><img src="/images/Roadrunner.jpg" alt="Roadrunner" width="422" height="850" /></p>
+</div>
 <div id="FullWide">
   <table width="670" border="0">
     <tr>
@@ -98,9 +90,8 @@ session_start();
         <tr>
           <td width="302"><p align="center" class="style9"><a href="PDFs/Checklist-of-Birds.pdf" target="_blank">Click here to download the bird checklist.</a></p>
             <p align="left" class="style9"><a href="http://avconline.avc.edu/cyorke/fieldnotes/edwardspiutepond.html" target="_blank">Link to Callyn Yorke's notes</a> and photos on field trips to Piute Ponds. Anyone else with a website with information about Piute Ponds, send an email to birding@piuteponds.org and we'll set up a link to your site.</p>
-            <p align="left" class="style9"><img src="/images/BurrowingOwl.jpg" alt="Burrowing Owl" border="2" /></p>
-            <p align="center" class="style9">Burrowing Owl seen near the Avenue C entrance. <br />
-              Photo by Darrin Dowell in February 2015.</p>
+            <p align="left" class="style9"><img src="/images/HornedOwlWith2Babies.jpg" alt="Horned Owl" width="640" height="473" /></p>
+            <p align="center" class="style9">Horned owl and owlettes sent to us by Sue Liberto on 5 April 2016.</p>
             <p><img src="/images/American-Bittern.jpg" alt="American Bittern at Shuttle Pond" border="2" /></p>
             <p align="center" class="style9">This American Bittern was photographed in Shuttle Pond <br />
             by Darrin Dowell in February 2015</p></td>
@@ -117,10 +108,8 @@ session_start();
       <p align="center"><img src="images/Northern-Lagerhead-Shrike-For-Web.jpg" alt="Northern Lagerhead Shrike" width="400" height="527" border="2" /></p>
       <p align="center">&nbsp;</p>
       <p align="center"><img src="images/Muscrat-For-Web.jpg" alt="Muscrat" width="650" height="434" border="2" /></p>
-      <p align="center">&nbsp;</p>
-      <p><span class="style9"><span class="style4">For more Birding Photos, <a href="birding2.php">click here to go to page 2.</a></span></span></p>      
-      <p><span class="style9">To  post rare sightings from Piute Ponds on this site please contact Wanda Deal at <a href="mailto:wanda.deal@edwards.af.mil" target="_blank">wanda.deal@edwards.af.mil</a> or Mark  Hagan at <a href="mailto:mark.hagan@edwards.af.mil" target="_blank">mark.hagan@edwards.af.mil</a></span></p>
-      <div align="right"></div></td>
+      <p align="center"><span class="style9"><span class="style4">For more Birding Photos, <a href="birding2.php">click here to go to page 2.</a></span></span></p>
+      </td>
     </tr>
     
     <tr>

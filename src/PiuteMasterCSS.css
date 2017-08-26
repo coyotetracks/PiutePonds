@@ -1,11 +1,11 @@
 #apDiv1 {
-	position:absolute;
-	left:50%;
-	top:165px;
-	width:422px;
-	height:1050px;
+	position: absolute;
+	left: 50%;
+	top: 165px;
+	width: 422px;
+	height: 900px;
 	margin-left: -100px;
-	z-index:9;
+	z-index: 9;
 	overflow: scroll;
 }
 #apDiv2 {

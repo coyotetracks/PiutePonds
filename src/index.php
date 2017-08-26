@@ -1,8 +1,5 @@
+<?php include_once('php/piute_includes.php'); session_start(); ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<?php
-include_once('php/piute_includes.php');
-session_start();
-?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -108,21 +105,39 @@ session_start();
 </div>
 <div id="apDiv1">
  
-  <p align="left" class="style4">Welcome</p>
-  <p align="left" class="style4">Latest News</p>
-  <p align="left" class="style9">There is a burrowing owl sited at the old burrow of previous owl off of Avenue C.</p>
-  <p align="left" class="style9">We had a successful tree planting in November. Piute now has about 350 new willow trees 10 mesquite and 10 desert olive trees.      </p>
-  <p align="left" class="style9">Our next tree planting event will take place in mid January. For more information call Misty at 661-275-2435 or Wanda at 661-810-9622</p>
-  <p align="left" class="style4"><span class="style4">What is a Friend?</span></p>
-  <p class="style9">A friend is one who watches over, shares experiences, values  and protects.</p>
-  <p class="style9">Check out the <a href="friends-of-piute-ponds.php">Friends of Piute</a> page.</p>
-  <p class="style4">Continuing Secrets of the Egret</p>
-  <p class="style9">A Great Egret and Great Blue Heron are seen here duking it out for ownership of the island in McKee Slough. After 5 minutes of disagreement, the Great Egret won the territory. Luckily no blood was shed. Photo by Jeff Blatt, the IT master of this website.</p>
-  <p class="style9"><img src="/images/JeffsDramaOnThePondsForSite.png" alt="cattle egret" border="1" /></p>
+  <p align="left" class="style4">Duck Blind Drawing August 26. <br />
+    <a href="hunting.php" target="_blank"><span class="style9">Click here for more information</span></a>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="P6E43GCBT86MC">
+    <input name="submit" type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" alt="PayPal - The safer, easier way to pay online!" align="middle" border="0" />
+    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+	</form>
+	</p>
+  <p align="left" class="style9">The friends of Piute Ponds launched this website in 2008 as a tool to inform the public of activities at the ponds. We privately funded all  costs associated with this website and built the pages and the harvest database on our own time. Much time, energy and effort have gone into this project. </p>
+  <p align="left" class="style9">When you donate it helps pay the hosting fees and soon we'll be assembling student backpacks for scientific exploration of the ponds by elementary school students. Any contribution to these efforts is appreciated and tax deductible. </p>
+  <p align="left" class="style9">These are photos from Earth Day 2017 in Tehachepi.</p>
+  <p align="left" class="style9"><img src="images/Tehachepi-Earth-Day-kid-and-Microscope.jpg" width="422" height="462" alt=""/></p>
+  <p align="left" class="style9">Below Molly Sherman and Anne Gouert talk with Richard Montijo, one of the Friends of Piute Ponds biologists.</p>
+  <p align="left" class="style9"><img src="images/Tehachepi-Earth-Day-People.jpg" width="422" height="321" alt=""/></p>
+  <p align="left" class="style9">&nbsp;</p>
+  <p align="left" class="style9"><img src="images/Earth-Day-at-NASA4-Web.jpg" width="422" height="243" alt=""/></p>
+  <p align="left" class="style9">And this photo is from Earth Day at NASA Armstrong Center on the base.  Jeff Blatt, Gregorio Pacheco show a visitor a map of the ponds.</p>
+  <p align="left" class="style9"><span class="style4">What is a Friend?</span></p>
+  <p class="style9">A friend is one who watches over, shares experiences, values  and protects. Check out the <a href="friends-of-piute-ponds.php">Friends of Piute</a> page.</p>
   <p class="style9">For  information about cattle egrets, go to the <a href="/Bird-Highlight.php">Bird Highlight</a> page.</p>
   <p class="style4">&nbsp;</p>
 </div>
 <div id="FullWide">
+  <p class="style4">&nbsp;</p>
+  <p align="center" class="style4"><img src="/images/RoadrunnerInJoshuaTree.jpg" alt="Roadrunner in Joshua Tree" /></p>
+  <p align="center" class="style9">A roadrunner in a joshua tree sent to us by Sue Liberto on April 5, 2016.</p>
+  <p align="center" class="style4"><img src="/images/Northern-Harrier-1.jpg" alt="Northern Harrier" /></p>
+  <p align="center" class="style9">Northern Harrier Male &#8212; photo by Larry Sansone 2/2/2016</p>
+  <p align="center" class="style4"><img src="/images/Northern-Harrier-2.jpg" alt="Northern Harrier" /></p>
+  <p align="center" class="style4"><span class="style9">Northern Harrier Female &#8212; photo by Larry Sansone 1/28/2016</span></p>
+  <p align="center" class="style4"><img src="/images/Bufflehead.jpg" alt="Bufflehead" width="640" height="457" /></p>
+  <p align="center" class="style4"><span class="style9">Bufflehead &#8212; photo by Larry Sansone 1/28/2016</span></p>
   <p class="style4">Friends of Piute Ponds News</p>
   <p class="style9">The small group of volunteers who  launched and maintained this site are currently embarking in becoming a 501c3 non-profit group. We are seeking volunteer, professional advice from legal experts and financial wizards, writers who like developing by laws, accountants to track all of our non-profit dollars, or a fundraising brainstormer. All talent and skill levels are welcome. If you have no talent, we'll find something for you too. All are welcome, just bring your enthusiasm..</p>
   <p class="style9">If you are ready to jump in with us as we expand our Piute horizons, email us at <a href="mailto:volunteer@piuteponds.org">volunteer@piuteponds.org</a>.You are welcome to join us any time to give as much or as little as you choose. We meet for dinner (dutch treat) every Tuesday evening from 5-7 p.m. in Lancaster. </p>
@@ -130,13 +145,8 @@ session_start();
   <p class="style9">See a video of the ponds by <a href="VideoClips/VidoeOfPiuteExperts.wmv">clicking here</a>. Edwards AFB  produced a video with interviews of Jon Feenstra and members of the Sea and Sage Audubon Society who were visiting the ponds during a birding tour. Beautiful images and interesting information for any newcomer to Piute Ponds.</p>
   <p align="left" class="style9"><span class="style13">Thank you</span> to Ducks Unlimited for all of the time and money spent to enhance and develop these incredible ponds. Hunters, birders, photographers, hikers, students and visitors of all kinds will enjoy this transformation for years to come..</p>
   <p align="left" class="style9">This site is built and managed by volunteers of the Friends of Piute Ponds. We have no affiliation with Edwards Air Force Base. We post information about the base as a courtesy to our viewers and the base.</p>
-  <p align="center" class="style9"><img src="/images/AfterTheRain2015.jpg" width="640" height="391" /></p>
-  <p align="center" class="style9">Piute after the Rain in September 2015</p>
-  <p align="center"><img src="/images/KristenBlatt-CattleEgret.jpg" alt="GreatEgret" /></p>
+  <p align="center" class="style9"><img src="/images/KristenBlatt-CattleEgret.jpg" alt="GreatEgret" /></p>
   <p align="center" class="style9">Great Egret photographed by Kristin Blatt taken October 2014</p>
-  <p align="center"><img src="/images/Wanda's-crooked-horizon618px.jpg" alt="" /></p>
-  <p align="center" class="style9">McKee Slough greets the sunrise on 1 November 2014 by Wanda Deal.</p>
-  <p align="center">&nbsp;</p>
   <p align="center"><img src="images/big-piute-pond-Hardy-update.jpg" alt="Big Piute" width="640" height="427" /></p>
   <p align="center" class="style9">Dawn photo of Big Piute by Bob Hardy</p>
   <p align="center"><img src="images/IbisForWebsite.jpg" alt="Ibis" width="640" height="323" /></p>
@@ -148,8 +158,6 @@ session_start();
   <p align="left" class="style4">Pond Information</p>
   <p class="style9">Over 250 species of birds have been documented at the Piute Ponds Complex. In 2004 the National Audubon Society designated the Ponds as an &quot;Important Bird Area of California.&quot; Piute Ponds is one of a few areas in the state supporting a successful White faced Ibis rookery. Black Crowned Night Herons and Great Blue Herons breed at the ponds regularly. </p>
   <p>&nbsp;</p>
-  <p align="center" class="style9"><img src="images/BlackCrownedNightHeronInTree.jpg" alt="Black Crown Heron In Tree at  Piute Ponds" width="400" height="325" border="2" /></p>
-  <p align="center" class="style12">Black crowned night herons photo by Rebecca and Bruce Hobbs</p>
   <p align="center" class="style9"><img src="images/Ruddy-Duck-Pam-Vick.jpg" alt="Ruddy Duck" width="625" height="417" border="2" align="top" /></p>
   <h6 align="center" class="style12">Ruddy Duck photo by Pam Vick</h6>
   <p class="style9">Mike San Miguel documented the most southern breeding range  extension of Buffle Head at Piute Ponds. For information about Mike San Miguel's influence on birding click here: <a href="MikeSanMiguel.php" target="_blank">Mike San Miguel</a></p>

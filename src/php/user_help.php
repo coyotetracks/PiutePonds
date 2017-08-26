@@ -133,7 +133,8 @@ function getAllUsers() {
   $dbLink = db_connect($dbInfo);
   db_select($dbLink, $dbInfo);
 
-  $getAllUsersSql = "SELECT * FROM login";
+  //$getAllUsersSql = "SELECT * FROM login";
+  $getAllUsersSql = "SELECT * FROM login ORDER BY id DESC";
 
   $result = mysql_query($getAllUsersSql, $dbLink);
   if (!$result) {

@@ -85,54 +85,93 @@ function createSeasonFromRow($dbRow) {
   	$rowSeason->setSeasonTitle($dbRow['season_title']);
   	$rowSeason->setStartDate($dbRow['start_date']);
   	$rowSeason->setEndDate($dbRow['end_date']);
+  	$rowSeason->setCurrent($dbRow['is_current']);
   	$rowSeason->setCreated($dbRow['created']);
   	  	
   	return $rowSeason;
 }
 
-function generateSeasonInsertSql($hunt) {
+function generateSeasonInsertSql($season) {
 	$sql = "INSERT ";
-	$sql .= "INTO hunt_ver ";
-	$sql .= "(hunter_id, created) ";
+	$sql .= "INTO season ";
+	$sql .= "(year_start, start_date, end_date, season_title, is_current, created) ";
 	$sql .= "VALUES (";
 	
-	$sql .= formatSqlNumericValue($hunt->getHunterId(), true);
-	$sql .= formatSqlDateValue($hunt->getCreated(), false);
+	$sql .= formatSqlNumericValue($season->getYearStart(), true);
+	$sql .= formatSqlDateValue($season->getStartDate(), true);
+	$sql .= formatSqlDateValue($season->getEndDate(), true);
+	$sql .= formatSqlStringValue($season->getSeasonTitle(), true);
+	$sql .= formatSqlBooleanValue($season->getCurrent(), true);
+	$sql .= formatSqlDateValue($season->getCreated(), false);
 	
 	$sql .= ")";
 
    return $sql;
 }
 
-function saveNewSeason($newHunt) {
-  $insertHuntSql = generateHuntInsertSql($newHunt);
-  //var_dump($insertHuntSql);
+function saveNewSeason($newSeason) {
+  $insertSeasonSql = generateSeasonInsertSql($newSeason);
   
   // Connect to the database
   $dbInfo = initialize_db_info();
   $dbLink = db_connect($dbInfo);
   db_select($dbLink, $dbInfo);
 
-  // Insert the hunt information in the database.
-  $result = mysql_query($insertHuntSql, $dbLink);
+  // Insert the season information in the database.
+  $result = mysql_query($insertSeasonSql, $dbLink);
   if (!$result) {
-  	echo $insertHuntSql;
-    throw new Exception('Failed to insert hunt');
+  	echo $insertSeasonSql;
+    throw new Exception('Failed to insert season');
   }
   
   // Extract id value which was automatically generated.
-  $huntId = getHuntId($newHunt);
+  $seasonId = getSeasonId($newSeason);
   
-  return $huntId;
+  return $seasonId;
 }
 
-function generateSeasonIdSql($hunt) {
+function generateSeasonUpdateSql($season) {
+	$sql = "UPDATE season SET";
+	$sql .= " year_start=";
+	$sql .= formatSqlNumericValue($season->getYearStart(), true);	
+	$sql .= " start_date=";
+	$sql .= formatSqlDateValue($season->getStartDate(), true);
+	$sql .= " end_date=";
+	$sql .= formatSqlDateValue($season->getEndDate(), true);
+	$sql .= " season_title=";
+	$sql .= formatSqlStringValue($season->getSeasonTitle(), true);
+	$sql .= " is_current=";
+	$sql .= formatSqlBooleanValue($season->isCurrent(), false);
+	
+	$sql .= " WHERE id=";
+	$sql .= formatSqlNumericValue($season->getId(), false);
+
+   return $sql;
+}
+
+function updateSeason($newSeason) {
+  $updateSeasonSql = generateSeasonUpdateSql($newSeason);
+  
+  // Connect to the database
+  $dbInfo = initialize_db_info();
+  $dbLink = db_connect($dbInfo);
+  db_select($dbLink, $dbInfo);
+
+  // Update the season information in the database.
+  $result = mysql_query($updateSeasonSql, $dbLink);
+  if (!$result) {
+  	echo $updateSeasonSql;
+    throw new Exception('Failed to update season');
+  }
+}
+
+function generateSeasonIdSql($season) {
 	$sql = "SELECT id ";
-	$sql .= "FROM hunt_ver ";
-	$sql .= "WHERE hunter_id = ";
-	$sql .= formatSqlNumericValue($hunt->getHunterId(), false);
+	$sql .= "FROM season ";
+	$sql .= "WHERE year_start = ";
+	$sql .= formatSqlNumericValue($season->getYearStart(), false);
     $sql .= " AND created = ";
-	$sql .= formatSqlDateValue($hunt->getCreated(), false);
+	$sql .= formatSqlDateValue($season->getCreated(), false);
 
    return $sql;
 }
@@ -142,18 +181,18 @@ function getSeasonId($season) {
    $dbLink = db_connect($dbInfo);
    db_select($dbLink, $dbInfo);
 
-   $huntIdSql = generateHuntIdSql($hunt);
+   $seasonIdSql = generateSeasonIdSql($season);
    
-   $result = mysql_query($huntIdSql, $dbLink);
+   $result = mysql_query($seasonIdSql, $dbLink);
    if (!$result) {
       echo $huntIdSql;
-      throw new Exception('Failed to retrieve hunt id');
+      throw new Exception('Failed to retrieve season id');
    }
    
    $row = mysql_fetch_assoc($result);
-   $currentHuntId = $row['id'];
+   $currentSeasonId = $row['id'];
    
-   return $currentHuntId;
+   return $currentSeasonId;
 }
 
 ?>

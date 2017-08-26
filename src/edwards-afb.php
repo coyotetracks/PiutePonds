@@ -1,7 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><?php
-include_once('php/piute_includes.php');
-session_start();
-?>
+<?php include_once('php/piute_includes.php'); session_start(); ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -78,29 +76,5 @@ session_start();
 <div id="apDiv1">
   <p class="style4">Edwards AFB</p>
   <p class="style3">The Piute Ponds Management Plan is available for review by <a href="/PDFs/Piute Ponds Complex Management Plan INRMP AFD-141126-093-2.pdf" target="_blank">clicking here</a>. Be patient, this PDF file is almost 4 mb, so it may take a few seconds to open.</p>
-  <p class="style3"><strong>Volunteer projects for 2015 –  contact Wanda Deal at <a href="mailto:volunteer@piuteponds.org">volunteer@piuteponds.org</a></strong></p>
   <p class="style3">&nbsp;</p>
-<blockquote>
-  <p class="style3">&nbsp;</p>
-</blockquote>
-  <p align="center" class="style4"><img src="images/Cottonwood-creek-Jan18-2010.jpg" alt="Cottonwood Creek January 18,2010 stream guages" width="230" height="321" border="2" /></p>
-  <p align="center" class="style4"><img src="images/CottonwoodCreekWaterflow1-20-10-wih-title2.jpg" alt="Cottonwood Creek Water Flow Test Januaary 20,2010" width="288" height="230" border="2" align="middle" /></p>
-  <p align="left" class="style9">Edwards begins surface water flow study to determine waterflow input from the three major watersheds flowing into Rosamond Dry Lake. The three main watersheds are Amargosa Creek, Cottonwood Creek and Littlerock Creek. This study captured the first major storm event in many years. </p>
-  <p align="center" class="style9"><img src="images/Cottonwood-creek-flow72dpi.jpg" alt="Aquacalc used to calculate velocity of Cottonwood Creek" width="307" height="245" border="2" /></p>
-  <p align="left" class="style9">&nbsp;</p>
-
-  <?php
-   if(isRoleMember('ponddev')) {
-   ?>
-  <p align="left" class="style9"><a href="Development-Effort.php">Piute Ponds Development Effort</a></p>
-  <?php
-   } else {
-   ?>
-   <?php
-   }
-   ?>
-
-  <p class="style4">&nbsp;</p>
-  <p class="style9">&nbsp;</p>
-  <p class="style9">&nbsp;</p>
 </div>

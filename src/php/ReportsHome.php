@@ -65,6 +65,14 @@ This is the main report page.
 				</form>				
 			</td>
 		</tr>
+		<tr>
+			<td>
+				<form method='POST' action='report_hunt_list.php'>
+				    <input type="hidden" name="hunt_year" value="2016" />
+					<input type="submit" name="hunt_list" id="hunt_list" value="Hunt List 2016" />
+				</form>				
+			</td>
+		</tr>
 	</table>
 
 	<table>

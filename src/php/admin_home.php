@@ -46,6 +46,13 @@ This is the admin home page.
   <?php if($isSuperUser) { ?>
   <tr>
     <td>
+       <a href="seasons_admin_home.php">Seasons Admin</a>
+    </td>
+  </tr>
+  <?php } ?>
+  <?php if($isSuperUser) { ?>
+  <tr>
+    <td>
        <a href="event_log_home.php">Event Log</a>
     </td>
   </tr>

@@ -1,7 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><?php
-include_once('php/piute_includes.php');
-session_start();
-?>
+<?php include_once('php/piute_includes.php'); session_start(); ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -78,7 +76,7 @@ session_start();
 <div id="apDiv1">
   <p class="style3"><span class="style4"><span class="H1"><span id="heading2">Our History</span></span></span></p>
   <p class="style9">Piute Ponds is situated in the southwestern portion  of Edwards Air Force Base in the western region of the Mojave Desert, on the  southern margin of Rosamond Dry Lake Bed.&nbsp;  The area spans 9,600 acres and consists of numerous claypan ponds and  low sand dunes. </p>
-  <p class="style9">Old aerial photos were recently discovered, showing the water at the ponds from 1928. To view these images, open the .pdf file by <a href="PDFs/Piute-Ponds-Complex-Through-the-Years-1928-to-2000.pdf" target="_blank">clicking here.</a></p>
+  <p class="style9">Old aerial photos were  discovered, showing  water at the ponds from 1928. To view these images, open the .pdf file by <a href="PDFs/Piute-Ponds-Complex-Through-the-Years-1928-to-2000.pdf" target="_blank">clicking here.</a></p>
   <p class="style9">&nbsp;</p>
   <p class="style9">&nbsp;</p>
 </div>

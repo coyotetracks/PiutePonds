@@ -1,8 +1,5 @@
+<?php include_once('php/piute_includes.php'); session_start(); ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<?php
-include_once('php/piute_includes.php');
-session_start();
-?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -20,7 +17,8 @@ session_start();
 .style18 {color: #FF0000}
 -->
 </style>
-<div id="apDiv2"><img src="/images/Piute_Background_Image.jpg" width="720" height="778" alt="PiutePonds-Background_Image" /></div><!-- #BeginLibraryItem "/Library/Welcome-Box.lbi" --><div id="login"><span class="style9" id="heading1">
+<div id="apDiv2"><img src="/images/Piute_Background_Image.jpg" width="720" height="778" alt="PiutePonds-Background_Image" /></div>
+<!-- #BeginLibraryItem "/Library/Welcome-Box.lbi" --><div id="login"><span class="style9" id="heading1">
   <?php
     if(showLoginBanner()) {
 	  $userInfo = getCurrentUserInfo();
@@ -87,29 +85,25 @@ session_start();
 </div>
 <div class="style9" id="apDiv1">
   <h1 class="style4">Hunting Information</h1>
-  <p class="style4">Duck Hunting 2015</p>
-  <p class="style9">The 2015 duck hunting season continues Sundays and Wednesdays through January 31. For further information about hunting regulations go to: <a href="http://www.dfg.ca.gov/regulations/" target="_blank">http://www.dfg.ca.gov/wildlife/hunting</a></p>
+  <p class="style4">Duck Hunting Season 2017/2018</p>
+  <p class="style9">The annual duck blind drawing takes place on Saturday, August 26. Arrive early with hunting license and all necessary documents to sign up. For details about the drawing,<a href="PDFs/2017-Duck-Blind-Drawing-Instructions.pdf" target="_blank"> click here for complete instructions</a>. To view the duck blind map, scroll down farther on this page. For directions to the <a href="PDFs/2017-Directions-to-West-Gate-Visitor-Control-Center.pdf" target="_blank">west gate visitor center click here</a>. For a map to the<a href="PDFs/2017-Location-of-Duck-Blind-Drawing.pdf" target="_blank"> location of the blind drawing click here</a>.</p>
+  <p class="style9">The Federal hunting season opens in October. For  more detailed information about hunting regulations go to: <a href="https://www.wildlife.ca.gov/Hunting/Waterfowl#877768-regulations" target="_blank">https://www.wildlife.ca.gov/Hunting/Waterfowl#877768-regulations</a>.</p>
   <p class="style9">Registered hunters can log in to check out the latest hunting information by going to the <a href="hunting-highlights.php">Hunting Highlight page.</a><strong> Once registered it will take you back to the home page so you will need  to come back to the hunting page.</strong></p>
-  <p class="style9">Hunting Information for Base Licensed  Hunters Only:</p>
-  <p class="style9"><a href="PDFs/Management of Hunting Fishing and Volunteer Program AFFTC 32-8 May 2003 AMENDED for 2015 to 2016 season.pdf">Air Force Flight Test Center Instruction (AFFTCI)</a> 
-(Please be patient, 
-    this is a 42 page file 
-and may take a few moments to open.)</p>
-  <p align="center">* * Register Now* *<br />
-    To register, go to the top of this page and <br />
-    click the register button. <br />
-    Follow the instructions and <br />
-    remember your password for later log-ins. <br />
-    After your profile is reveiwed and validated <br />
-    as an EAFB hunter, <br />
-    you will receive an email with further instruction. <br />
-    It may be a couple of days for the site software wizard to complete this process and get back to you.</p>
+  <h1 class="style9"><span class="style4">* * Register Now* *</span></h1>
+  <h1 class="style9">    To register, go to the top of this page and 
+    click the register button. 
+    Follow the instructions and 
+    remember your password for later log-ins. 
+    After your profile is reveiwed and validated 
+    as an EAFB hunter, 
+    you will receive an email with further instruction. 
+  It may be a couple of days for the site software wizard to complete this process and get back to you.</h1>
   <p>The electronic hunter harvest database is available for hunters who register on the site. Let us know if you experience any problems with it. Even if you were checked out at the bag check it would be helpful to have you enter your data. The database is set up such that only you can see your hunts unless you choose to show your hunts to someone else. Only Edwards AFB will have access to all the data. </p>
   <p>The duck blind list is updated and available for hunters. This is visible only to hunters who are registered and logged in. The link is farther down on this page, called &quot;Duck Blind List&quot; but if it doesn't take you to the list, you aren't logged in.</p>
   <p>Membership has its privilege. . . </p>
 </div>
 <div id="FullWideUnderButtons">
-  <p class="style4">New Duck Blind Map</p>
+  <p class="style4">Duck Blind Map</p>
   <p align="center" class="style4"><img src="/images/2014-Blind-LocationLOWRES-FOR-WEB.jpg" alt="DuckBlindMap" width="680" height="525" /></p>
   <p class="style9">For a PDF version of this map to download/print, <a href="PDFs/2014-Blind-Location.pdf" target="_blank">click here</a>.</p>
   <p class="style4">Volunteer Opportunities</p>
@@ -147,7 +141,7 @@ and may take a few moments to open.)</p>
    ?>
   </p>
   <h1 align="left" class="style9">To see the duck blind list, please click here:</h1>
-  <p align="left" class="style9"><a href="duck_blind_list.php?year=2015">Duck Blind List</a></p>
+  <p align="left" class="style9"><a href="duck_blind_list.php?year=2016">Duck Blind List</a></p>
   <?php
    } else {
    ?>

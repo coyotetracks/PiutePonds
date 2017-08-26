@@ -6,6 +6,7 @@ class season_info {
 	private $seasonTitle = "";
 	private $startDate = "";
 	private $endDate = "";
+	private $isCurrent = false;
 	private $created = "";
 
     function _constructor() {
@@ -49,6 +50,14 @@ class season_info {
 
 	public function getEndDate() {
 		return $this->end_date;
+	}
+
+	public function setCurrent($newCurrent) {
+		$this->is_current = $newCurrent;
+	}
+
+	public function isCurrent() {
+		return $this->is_current;
 	}
 
 	public function setCreated($newCreated) {

@@ -1,7 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><?php
-include_once('php/piute_includes.php');
-session_start();
-?>
+<?php include_once('php/piute_includes.php'); session_start(); ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -77,9 +75,20 @@ session_start();
 </div>
 <div class="style4" id="apDiv1">
   <p class="style4">Friends of Piute Ponds</p>
+  <p align="left" class="style9">After 7 years of meeting every week to build the Friends of Piute Ponds organization, this websie and maintain this website<a href="/volunteer.php"></a>, we plowed through the paperwork and submitted it to the IRS. They approved the Friends as a 501(C)(3) on March 16, 2016. We got the letter on March 21 and have been celebrating ever since!!</p>
+  <p align="center" class="style9"><img src="/images/Donate button.png" alt="Donate Button" width="304" height="243" /></p>
+     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+       <input type="hidden" name="cmd" value="_s-xclick">
+       <input type="hidden" name="hosted_button_id" value="P6E43GCBT86MC">
+       <input name="submit" type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" alt="PayPal - The safer, easier way to pay online!" align="middle" border="0" />
+       <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+	</form>
+  <p class="style9">After 7 years of meeting every week to build the Friends of Piute Ponds organization, build this website and maintain it<a href="/volunteer.php"></a>, we plowed through the paperwork and submitted it to the IRS. They approved the Friends as a 501(C)(3) on March 16, 2016. We got the letter on March 21 and have been celebrating ever since!!</p>
+  <p class="style9">This allows anyone who donates to the Friends of Piute Ponds to write off their donations on their federal income tax return AND it is retroactive to December 20, 2013 when we became a California corporation.</p>
+  <p class="style9">The Friends board would like to thank all of you friends for your support and encouragement over the years, donating time, money and gifts even though the donations were not deductible.</p>
   <p class="style9"><em>The mission of The Friends of Piute Ponds is to study and protect the wetlands and environs of this unique area to benefit the health of its ecosystem. Piute Ponds, on Edwards Air Force Base, is, at 9600 acres, the largest wetlands marsh in Los Angeles County and is an important stop for migratory birds using the Pacific Flyway.  The Friends partner with Edwards Air Force Base and Los Angeles County Sanitation District in their stewardship of the ponds. In the community, we educate, interact, and participate with those who use the ponds and those who conduct scientific research of the ponds.</em></p>
-  <p class="style9">The small group of volunteers who have launched and maintained this site and incorporated in December 2013, and embarking on our  501c3 non-profit group, currently writing our bylaws. We are seeking volunteer, professional advice from legal experts and financial wizards, writers who like developing bylaws, accountants to track all of our non-profit dollars, or a fundraising brainstormer. All talent and skill levels are welcome. If you have no talent, we'll find something for you too. All are welcome, just bring your enthusiasm...</p>
-  <p class="style9">If you are ready to jump in with us as we expand our Piute horizons, email us at <a href="mailto:volunteer@piuteponds.org">volunteer@piuteponds.org</a>. You are welcome to join us any time to give as much or as little as you choose. We meet for dinner (dutch treat) every Tuesday evening from 5-7 p.m. in Lancaster. Email us for the location.</p>
+  <p class="style9">If you are ready to jump in with us as we expand our Piute horizons, email us at <a href="mailto:volunteer@piuteponds.org">volunteer@piuteponds.org</a>. You are welcome to join us any time to give as much or as little as you choose. </p>
+  <p class="style9">NOTE THIS CHANGE: We meet for dinner (dutch treat) every Thursday evening at 6 p.m. in Lancaster. Email us for the location.</p>
   <p class="style4">What is a Friend?</p>
   <p class="style9">A friend is one who watches over, shares experiences, values  and protects.</p>
   <p class="style4">What is Friends of Piute Ponds?</p>

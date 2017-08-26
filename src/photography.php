@@ -1,7 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><?php
-include_once('php/piute_includes.php');
-session_start();
-?>
+<?php include_once('php/piute_includes.php'); session_start(); ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -76,12 +74,17 @@ session_start();
   <p class="style3"><span class="style4"><span class="H1"><img src="images/Yellow-headed-blackbirds.jpg" alt="Yellow Headed Blackbird at Piute Ponds" width="415" height="325" border="2" /></span></span></p>
   <p align="center" class="style9">For access request to Piute Ponds, use the link below to send an email to Misty Hailstone. &nbsp;Please be sure to include a phone number so she can be bet back to you.</p>
   <p align="center" class="style9"><a href="mailto:Misty.Hailstone.1@us.af.mil" target="_blank">Piute Ponds Access Request Email</a><a href="mailto:wanda.deal@edwards.af.mil" target="_blank"></a></p>
+  <p align="left" class="style9">You too can have your photos posted on this page, by emailing the electronic file and your information (who shot the photo, when and where) to us at <a href="mailto:Misty.Hailstone.1@us.af.mil">help@piuteponds.org</a>.</p>
+  <p align="left" class="style9">The ponds are a wonderful place to take photos of the people, birds, bugs, sunsets and sunrises. </p>
+  <p align="left" class="style9">There is so much to see and enjoy at the ponds and they can be shared through your photography. </p>
+  <p align="left" class="style9">&nbsp;</p>
   <p class="style9">&nbsp;</p>
 </div>
 <div id="FullWideUnderButtons">
-  <p align="center">&nbsp;</p>
-  <p align="center">&nbsp;</p>
-  <p align="center">&nbsp;</p>
+  <p align="center"><img src="/images/AfterTheRain2015.jpg" alt="Piute Ponds after rain" width="640" height="391" /></p>
+  <p align="center" class="style9">Piute Ponds Complex after the Rain - 2014 by Wanda Deal</p>
+  <p align="center"><img src="/images/Wanda's-crooked-horizon618px.jpg" alt="McKee Slough" width="676" height="541" /></p>
+  <p align="center" class="style9">McKee Slough 1 November 2014 by Wanda Deal</p>
   <p align="center">&nbsp;</p>
   <p align="center"><img src="images/Late-afternoon-Piute-Ponds.jpg" alt="Late afternoon at Piute Ponds" width="658" height="504" border="2" /></p>
   <p class="style9"><img src="images/Pfau-waterscape-dec04-2009.jpg" alt="Waterscape at Piute Ponds" width="670" height="511" border="2" /></p>

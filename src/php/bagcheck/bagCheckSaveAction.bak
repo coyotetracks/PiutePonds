@@ -1,0 +1,14 @@
+<?php
+require_once(dirname(__FILE__) . '/bagCheckIncludes.php');
+session_start();
+
+persistCurrentBagCheckState();
+//$bagCheckInfo = getBagCheckInfo();
+//updateBagCheckValues($bagCheckInfo);
+//saveBagCheckValuesToDatabase($bagCheckInfo);
+
+//setBagCheckInfoInSession($bagCheckInfo);
+
+header("Location: ./bagCheck.php");
+
+?>

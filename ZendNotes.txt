@@ -1,0 +1,12 @@
+ZendServer Port 10081
+ZendServer SSL Port 10082
+
+Order Number: DEV-FREE-23959-53
+License Key: N1828G10801O31D967495ADE91772D75
+Expiration date: 2017-01-08
+
+http://localhost:10081/ZendServer/
+
+admin
+
+developer
