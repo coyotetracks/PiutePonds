@@ -23,9 +23,25 @@ redirectIfNotInRole('super user', '../not-allowed.php');
 This is the Blind Lists Admin page.
 
 <?php
-   //$blindList = getAllBlindsByYear('2010');
    $blindYearList = getBlindListYears();
 ?>
+
+	<form method="POST" name="add_new_blind" action='add_new_blind_list_action.php'>
+		<table>
+			<tr>
+				<th></th>
+				<th>Year</th>
+				<th>Number of Blinds</th>
+				<th></th>
+			</tr>
+			<tr>
+				<td>Create New Blind List</td>
+				<td><input type="text" name="year" ID="new_blind_list_year" value="" size=10></td>
+				<td><input type="text" name="num_blinds" ID="new_blind_list_num_blinds" value="" size=20></td>
+				<td><input type="submit" name="Add Blind List" id="Add Blind List" value="Add New Blind List" /></td>
+			</tr>
+		</table>
+	</form>
 
 <table border="1">
   <tr>

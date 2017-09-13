@@ -30,7 +30,7 @@ redirectIfNotInRole('super user', '../not-allowed.php');
 
 <h1>Blind List Admin (<?php echo $blindYear ?>)</h1>
 This is the Blind List Admin.
-
+	
 <table class="blind_list">
   <tr>
       <th>&nbsp;</th>

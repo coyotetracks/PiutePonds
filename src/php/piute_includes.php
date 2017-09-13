@@ -30,6 +30,7 @@
    require_once(dirname(__FILE__) . '/notification.php');
    require_once(dirname(__FILE__) . '/blind_info.php');
    require_once(dirname(__FILE__) . '/blind_help.php');
+   require_once(dirname(__FILE__) . '/blind_list_help.php');
    require_once(dirname(__FILE__) . '/harvest_count_info.php');
    require_once(dirname(__FILE__) . '/harvest_count_help.php');
    require_once(dirname(__FILE__) . '/species_info.php');
