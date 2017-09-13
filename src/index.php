@@ -6,6 +6,7 @@
 <title>Piute Ponds Home Page</title>
 
 <link href="PiuteMasterCSS.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 <style type="text/css">
 <!--
 .style10 {color: #003300}
