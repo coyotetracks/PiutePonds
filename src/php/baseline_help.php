@@ -8,6 +8,7 @@ function baselineHarvestData($baselineYear) {
 	flush();
    
 	// Get all Hunt report data for this season
+	// Since we are re-running the report we will need to delete the old report.
 	$allHuntReports = getAllHuntReportsForASeason($baselineYear);
    
 	if(isset($allHuntReports)) {

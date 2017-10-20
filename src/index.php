@@ -6,7 +6,6 @@
 <title>Piute Ponds Home Page</title>
 
 <link href="PiuteMasterCSS.css" rel="stylesheet" type="text/css" />
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 <style type="text/css">
 <!--
 .style10 {color: #003300}
@@ -106,8 +105,8 @@
 </div>
 <div id="apDiv1">
  
-  <p align="left" class="style4">Duck Blind Drawing August 26. <br />
-    <a href="hunting.php" target="_blank"><span class="style9">Click here for more information</span></a>
+  <p align="left" class="style4">Autumn Supper Event was a hit.
+  <p align="left" class="style9"><a href="AutumnSupper.php" target="_blank">Click here to see more about it.</a>    
   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
     <input type="hidden" name="cmd" value="_s-xclick">
     <input type="hidden" name="hosted_button_id" value="P6E43GCBT86MC">
