@@ -76,7 +76,8 @@
   <p align="center" class="style9"><a href="mailto:Misty.Hailstone.1@us.af.mil" target="_blank">Piute Ponds Access Request Email</a><a href="mailto:wanda.deal@edwards.af.mil" target="_blank"></a></p>
   <p align="left" class="style9">You too can have your photos posted on this page, by emailing the electronic file and your information (who shot the photo, when and where) to us at <a href="mailto:Misty.Hailstone.1@us.af.mil">help@piuteponds.org</a>.</p>
   <p align="left" class="style9">The ponds are a wonderful place to take photos of the people, birds, bugs, sunsets and sunrises. </p>
-  <p align="left" class="style9">There is so much to see and enjoy at the ponds and they can be shared through your photography. </p>
+  <p align="left" class="style9">There is so much to see and enjoy at the ponds and they can be shared through your photography.</p>
+  <p align="left" class="style9">For more great photos of Piute Ponds, here's a great website to see: <a href="http://brentbremer.com/piute-ponds-photography/" target="cl_blank">http://brentbremer.com/piute-ponds-photography/</a></p>
   <p align="left" class="style9">&nbsp;</p>
   <p class="style9">&nbsp;</p>
 </div>

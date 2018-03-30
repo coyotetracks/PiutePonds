@@ -74,9 +74,11 @@
 <!-- #EndLibraryItem --></div>
 </div>
 <div class="style4" id="apDiv1">
+  <p align="left" class="style4">Autumn Supper Event was a hit. </p>
+  <p align="left" class="style9">Scroll down the page for details.</p>
   <p class="style4">Friends of Piute Ponds</p>
-  <p align="left" class="style9">After 7 years of meeting every week to build the Friends of Piute Ponds organization, this websie and maintain this website<a href="/volunteer.php"></a>, we plowed through the paperwork and submitted it to the IRS. They approved the Friends as a 501(C)(3) on March 16, 2016. We got the letter on March 21 and have been celebrating ever since!!</p>
-  <p align="center" class="style9"><img src="/images/Donate button.png" alt="Donate Button" width="304" height="243" /></p>
+  <p class="style4"><span class="style9">We meet for dinner (dutch treat) on alternating Thursday evenings at 6 p.m. in Lancaster. Join us if being a Friend looks interesting. <a href="mailto:help@PiutePonds.org">Email us</a> for the location.</span></p>
+  <p align="left" class="style9"><img src="/images/Donate button.png" alt="Donate Button" width="304" height="243" /></p>
      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
        <input type="hidden" name="cmd" value="_s-xclick">
        <input type="hidden" name="hosted_button_id" value="P6E43GCBT86MC">
@@ -87,8 +89,7 @@
   <p class="style9">This allows anyone who donates to the Friends of Piute Ponds to write off their donations on their federal income tax return AND it is retroactive to December 20, 2013 when we became a California corporation.</p>
   <p class="style9">The Friends board would like to thank all of you friends for your support and encouragement over the years, donating time, money and gifts even though the donations were not deductible.</p>
   <p class="style9"><em>The mission of The Friends of Piute Ponds is to study and protect the wetlands and environs of this unique area to benefit the health of its ecosystem. Piute Ponds, on Edwards Air Force Base, is, at 9600 acres, the largest wetlands marsh in Los Angeles County and is an important stop for migratory birds using the Pacific Flyway.  The Friends partner with Edwards Air Force Base and Los Angeles County Sanitation District in their stewardship of the ponds. In the community, we educate, interact, and participate with those who use the ponds and those who conduct scientific research of the ponds.</em></p>
-  <p class="style9">If you are ready to jump in with us as we expand our Piute horizons, email us at <a href="mailto:volunteer@piuteponds.org">volunteer@piuteponds.org</a>. You are welcome to join us any time to give as much or as little as you choose. </p>
-  <p class="style9">NOTE THIS CHANGE: We meet for dinner (dutch treat) every Thursday evening at 6 p.m. in Lancaster. Email us for the location.</p>
+  <p class="style9">If you are ready to jump in with us as we expand our Piute horizons, email us at <a href="mailto:volunteer@piuteponds.org">volunteer@piuteponds.org</a>. You are welcome to join us any time to give as much or as little as you choose.  </p>
   <p class="style4">What is a Friend?</p>
   <p class="style9">A friend is one who watches over, shares experiences, values  and protects.</p>
   <p class="style4">What is Friends of Piute Ponds?</p>
@@ -99,4 +100,22 @@
   <p class="style9">&nbsp;</p>
   <p class="style9">&nbsp;</p>
 </div>
+<div class="style9" id="FullWideUnderButtons">
+<p class="style4">September 30 saw the Friends take a great afternoon walk.</p>
+  Here are photos taken when we sat down for dinner and shared stories.
+  <p class="style9"><img src="images/Twilight_at_Ponds-1_9-30-17.jpg" width="680" height="350" alt=""/></p>
+  <p class="style9"><img src="images/Twilight_at_Ponds-2_9-30-17.jpg" width="680" height="354" alt=""/></p>
+  <p align="left" class="style4">These are photos from Earth Day 2017 in Tehachepi.</p>
+  <p align="left" class="style9"><img src="images/Tehachepi-Earth-Day-kid-and-Microscope.jpg" width="422" height="462" alt=""/></p>
+  <p align="left" class="style9">Below Molly Sherman and Anne Gouert talk with Richard Montijo, one of the Friends of Piute Ponds biologists.</p>
+  <p align="left" class="style9"><img src="images/Tehachepi-Earth-Day-People.jpg" width="422" height="321" alt=""/></p>
+  <p align="left" class="style9">&nbsp;</p>
+  <p align="left" class="style9"><img src="images/Earth-Day-at-NASA4-Web.jpg" width="422" height="243" alt=""/></p>
+  <p align="left" class="style9">And this photo is from Earth Day at NASA Armstrong Center on the base.  Jeff Blatt, Gregorio Pacheco show a visitor a map of the ponds.</p>
+  <p class="style9">&nbsp;</p>
+</div
+  >
+  
+
+
 

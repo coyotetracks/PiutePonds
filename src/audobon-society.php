@@ -72,6 +72,8 @@
 <div id="apDiv1">
   <p class="style3"><span class="style4"><span class="H1"><span id="heading1">Audubon Society</span></span></span></p>
   <p><span class="style9">The California Audubon Society can be reached by clicking <a href="http://ca.audubon.org/" target="_blank">this link</a>.</span></p>
+  <p class="style9">The local, Antelope Valley group page can be found by clicking <a href="http://www.audubon.org/important-bird-areas/antelope-valley-lancaster" target="_blank">this link</a>.</p>
+  <p class="style9">This <a href="https://www.meetup.com/Antelope-Valley-Audubon-Society/" target="_blank">MeetUp page</a> has their meeting information.</p>
   <p class="style9">Check back again to see what's new on the Piute Ponds Audubon Society page.</p>
   <p class="style9">&nbsp;</p>
   <p class="style9">&nbsp;</p>

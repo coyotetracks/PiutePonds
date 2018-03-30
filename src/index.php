@@ -105,28 +105,20 @@
 </div>
 <div id="apDiv1">
  
-  <p align="left" class="style4">Autumn Supper Event was a hit.
-  <p align="left" class="style9"><a href="AutumnSupper.php" target="_blank">Click here to see more about it.</a>    
-  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+  <p align="left" class="style4">
     <input type="hidden" name="cmd" value="_s-xclick">
     <input type="hidden" name="hosted_button_id" value="P6E43GCBT86MC">
     <input name="submit" type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" alt="PayPal - The safer, easier way to pay online!" align="middle" border="0" />
     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-	</form>
+  
 	</p>
   <p align="left" class="style9">The friends of Piute Ponds launched this website in 2008 as a tool to inform the public of activities at the ponds. We privately funded all  costs associated with this website and built the pages and the harvest database on our own time. Much time, energy and effort have gone into this project. </p>
   <p align="left" class="style9">When you donate it helps pay the hosting fees and soon we'll be assembling student backpacks for scientific exploration of the ponds by elementary school students. Any contribution to these efforts is appreciated and tax deductible. </p>
-  <p align="left" class="style9">These are photos from Earth Day 2017 in Tehachepi.</p>
-  <p align="left" class="style9"><img src="images/Tehachepi-Earth-Day-kid-and-Microscope.jpg" width="422" height="462" alt=""/></p>
-  <p align="left" class="style9">Below Molly Sherman and Anne Gouert talk with Richard Montijo, one of the Friends of Piute Ponds biologists.</p>
-  <p align="left" class="style9"><img src="images/Tehachepi-Earth-Day-People.jpg" width="422" height="321" alt=""/></p>
-  <p align="left" class="style9">&nbsp;</p>
-  <p align="left" class="style9"><img src="images/Earth-Day-at-NASA4-Web.jpg" width="422" height="243" alt=""/></p>
-  <p align="left" class="style9">And this photo is from Earth Day at NASA Armstrong Center on the base.  Jeff Blatt, Gregorio Pacheco show a visitor a map of the ponds.</p>
   <p align="left" class="style9"><span class="style4">What is a Friend?</span></p>
   <p class="style9">A friend is one who watches over, shares experiences, values  and protects. Check out the <a href="friends-of-piute-ponds.php">Friends of Piute</a> page.</p>
   <p class="style9">For  information about cattle egrets, go to the <a href="/Bird-Highlight.php">Bird Highlight</a> page.</p>
-  <p class="style4">&nbsp;</p>
+  <p class="style9"><img src="images/Belted-kingfisher.jpg" width="415" height="623" alt=""/></p>
+  <p class="style4">There is more to see. . . keep scrolling</p>
 </div>
 <div id="FullWide">
   <p class="style4">&nbsp;</p>
